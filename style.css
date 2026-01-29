@@ -8,3 +8,14 @@ header-logo {
   width: 55px;
   height: 55px;
 }
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo {
+  width: 55px;
+  height: 55px;
+  object-fit: contain;
+}
